@@ -13,7 +13,7 @@ header {
     align-items: center;
 }
 
-.Logo{
+.Logo {
     height: 80%;
     border-radius: 50%;
 }
@@ -24,10 +24,10 @@ header {
     border-radius: 1.5rem;
     text-decoration: none;
     padding: 0.5rem 1rem 0.5rem 1rem;
-    
+    margin: 1rem;
 }
 
-.itens-menu:hover{
+.itens-menu:hover {
     background-color: #FDC700;
 
 }
@@ -42,8 +42,55 @@ header {
     padding: 0.5rem 1rem 0.5rem 1rem;
 }
 
-#sabadou{
-    background-image: url(assets/FAKE_OU_VERDADEjp.jpg);
-    max-width: 10rem;
-    max-height: 10rem;
+#imgsabadou {
+    background-image: url(assets/SABADOU.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.sabadou {
+    height: 50rem;
+    display: inline-flex;
+    align-items: flex-end;
+    margin-inline-start: 20%;
+    border-radius: 0rem 0rem 2rem 2rem;
+
+}
+
+.HeroSection {
+    width: 64.7rem;
+    background: linear-gradient(to top, black, transparent);
+    padding: 3rem 1rem 1rem 1rem;
+    border-radius: 0 0 2rem 2rem;
+    display: flex;
+    align-items: center;
+
+}
+
+.aovivo {
+    background-color: #DE1B1C;
+    color: white;
+    border-radius: 12vh;
+    font-size: 1rem;
+    text-align: center;
+    padding: 0.2rem 0.4rem 0.2rem 0.4rem;
+
+}
+
+.imglisten {
+    margin: 1rem;
+    border: 0.2rem solid gray;
+    border-radius: 1rem;
+    height: 6rem
+
+}
+
+.frase {
+    color: #FDC700;
+}
+
+.player {
+    margin-right: 5rem;
+    
 }
