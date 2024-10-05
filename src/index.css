@@ -1,4 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
 header {
-    background-color: #1DCE56;
+    background-color: #dc1f1cdc;
     Color: White;
+    height: 6rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Logo{
+    height: 80%;
+    border-radius: 50%;
+}
+
+.itens-menu {
+    background-color: white;
+    color: black;
+    border-radius: 1.5rem;
+    text-decoration: none;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    
+}
+
+.itens-menu:hover{
+    background-color: #FDC700;
+
+}
+
+.relogio {
+    background-color: #DE1B1C;
+    color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 1.5rem;
+    text-decoration: none;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+#sabadou{
+    background-image: url(assets/FAKE_OU_VERDADEjp.jpg);
+    max-width: 10rem;
+    max-height: 10rem;
 }
