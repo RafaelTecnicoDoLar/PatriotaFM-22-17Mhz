@@ -1,14 +1,17 @@
 import Listen from "../assets/albuns/listen-hellskitchen.jpg"
 import Sound from "../assets/audio/Listen.mp3"
+import barravertical from "../assets/barra-vertical.png"
 
 function HeroSection() {
     return (
         <section class="sabadou" id="imgsabadou">
             <div class="HeroSection">
+
                 <div class="player">
                     <audio controls="controls">
                         <source src={Sound} type="audio/mp3" />
                         seu navegador não suporta HTML5
+
                     </audio>
 
                     <h1 class="aovivo">
@@ -17,6 +20,7 @@ function HeroSection() {
 
                 </div>
 
+                <img src={barravertical} />
 
                 <img class="imglisten" src={Listen} />
 
@@ -27,7 +31,7 @@ function HeroSection() {
                     </h2>
 
                     <h3 class="frase">
-                        Sabadou VOX com Hellskitchen
+                        Especial Rock Fest SBO
                     </h3>
 
                 </div>

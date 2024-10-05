@@ -1,11 +1,12 @@
 * {
     margin: 0;
     padding: 0;
+   
 }
 
-
 header {
-    background-color: #dc1f1cdc;
+    background-color: #dc1f1c;
+    
     Color: White;
     height: 6rem;
     display: flex;
@@ -33,11 +34,12 @@ header {
 }
 
 .relogio {
-    background-color: #DE1B1C;
+    background-color: #de1b1b;
+    border: 2px solid white ;
     color: white;
     display: flex;
     align-items: center;
-    border-radius: 1.5rem;
+    border-radius: 2rem;
     text-decoration: none;
     padding: 0.5rem 1rem 0.5rem 1rem;
 }
@@ -50,7 +52,7 @@ header {
 }
 
 .sabadou {
-    height: 50rem;
+    height: 36rem;
     display: inline-flex;
     align-items: flex-end;
     margin-inline-start: 20%;
