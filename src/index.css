@@ -99,8 +99,44 @@ header {
 
 .anuncio {
     margin-top: 1rem;
+    margin-bottom: 1rem;
     margin-left: 10%;
     margin-right: 10%;
     height: 13.5rem;
     align-items: center;
+}
+
+.Titulo {
+    color: red;
+    margin-left: 10%;
+
+}
+
+.maispedidas {
+    display: inline-flex;
+    margin-left: 10%;
+    padding: 1rem;
+    background-color: rgba(128, 128, 128, 0.053);
+    border-radius: 1rem;
+}
+
+.card {
+    border-radius: 1rem;
+    align-items: center;
+    margin: 0.5rem;
+}
+
+.imgboxmusic {
+    margin: 2rem;
+    align-items: center;
+
+}
+
+.autor {
+    color: red;
+    margin-left: 2rem;
+}
+
+.subtitulo {
+    margin-left: 2rem;
 }
