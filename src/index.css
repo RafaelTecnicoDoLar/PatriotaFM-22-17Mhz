@@ -96,3 +96,11 @@ header {
     margin-right: 5rem;
 
 }
+
+.anuncio {
+    margin-top: 1rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 13.5rem;
+    align-items: center;
+}
