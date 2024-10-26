@@ -114,13 +114,37 @@ header {
 
 }
 
+.containerm-maispedidas {
+    width: 100%; /* Ajuste conforme necessário */
+    overflow: hidden; /* Oculta a barra de rolagem do container */
+    position: relative; /* Para posicionar a barra de rolagem */
+}
+
 .maispedidas {
-    display: inline-flex;
+    display: flex;
     margin-left: 10%;
-    
+    margin-right: 10%;
+    overflow-x: auto; /* Permite rolagem horizontal */
+    white-space: nowrap; /* Faz com que os cards fiquem em linha */
+    padding-bottom: 10px; /* Espaço para a barra de rolagem */
     padding: 1rem;
     background-color: rgba(128, 128, 128, 0.233);
     border-radius: 1rem;
+}
+
+
+
+.maispedidas::-webkit-scrollbar {
+    height: 8px; /* Altura da barra de rolagem */
+}
+
+.maispedidas::-webkit-scrollbar-thumb {
+    background: #888; /* Cor da barra */
+    border-radius: 4px; /* Bordas arredondadas da barra */
+}
+
+.maispedidas::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Cor da barra ao passar o mouse */
 }
 
 .card {
