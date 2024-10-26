@@ -26,6 +26,8 @@ header {
     text-decoration: none;
     padding: 0.5rem 1rem 0.5rem 1rem;
     margin: 1rem;
+    transition: 100ms;
+
 }
 
 .itens-menu:hover {
@@ -115,9 +117,9 @@ header {
 .maispedidas {
     display: inline-flex;
     margin-left: 10%;
-    margin-right: 10%;
+    
     padding: 1rem;
-    background-color: rgba(128, 128, 128, 0.053);
+    background-color: rgba(128, 128, 128, 0.233);
     border-radius: 1rem;
 }
 
@@ -142,21 +144,33 @@ header {
     margin-left: 2rem;
 }
 
-.infopromocao{
-    width: 30rem;
+.selecaopromocao{
+    background-color: rgba(128, 128, 128, 0.233);
+    display: inline-flex;
+    border-radius: 1rem;
+    margin-left: 10%;  
+    margin-top: 1rem;
+
 }
 
-.imgpromocao{
-    width: 30rem;
+.infopromocao {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    max-width: 31.5rem;
+    min-height: 35rem;
+    margin: 1rem;
+
+}
+
+.imgpromocao {
+    width: 100%;
 }
 
 .titulopromocao {
-    margin: 1rem;
-font-size: 2rem;
-}
-
-.subtitulopromocao{
-    display: flex;
+    margin: 0.5rem;
+    font-size: 2rem;
 }
 
 .valdiadepromocao {
@@ -164,10 +178,25 @@ font-size: 2rem;
 
 }
 
-.botaoparticipe{
+.botaoparticipe {
     background-color: #dc1f1c;
     color: white;
     padding: 0.5rem 1rem 0.5rem 1rem;
-    border-radius: 1rem;
+    border-radius: 2rem;
+    align-items: center;
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: 100ms;
 
+}
+
+.botaoparticipe:hover {
+    background-color: #9b1a17;
+
+}
+
+.subtitulopromocao {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
 }
