@@ -141,3 +141,33 @@ header {
 .subtitulo {
     margin-left: 2rem;
 }
+
+.infopromocao{
+    width: 30rem;
+}
+
+.imgpromocao{
+    width: 30rem;
+}
+
+.titulopromocao {
+    margin: 1rem;
+font-size: 2rem;
+}
+
+.subtitulopromocao{
+    display: flex;
+}
+
+.valdiadepromocao {
+    margin: 1rem;
+
+}
+
+.botaoparticipe{
+    background-color: #dc1f1c;
+    color: white;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 1rem;
+
+}

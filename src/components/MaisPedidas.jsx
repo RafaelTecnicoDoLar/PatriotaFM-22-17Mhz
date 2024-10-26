@@ -23,11 +23,11 @@ function MaisPedidas() {
             </h1>
 
             <section class="maispedidas">
-                <BoxMusic capa={HolyWars} nome="MEGADETH" musica="Holy Wars The Punishment Due" audio="HolyWarsmp3" />
-                <BoxMusic capa={CrackCocaine} nome="OZZY OSBOURNE" musica="Crack Cocaine" audio="CrackCocainemp3" />
-                <BoxMusic capa={PaperCut} nome="LINKIN PARK" musica="PaperCut" audio="PaperCutmp3" />
-                <BoxMusic capa={Eruption} nome="VAN HALEN" musica="Eruption 2015 Remaster" audio="Eruptionmp3" />
-                <BoxMusic capa={KnockinOnHeavensDoor} nome="GUNS N' ROSES " musica=" knockin on heaven's door" audio="KnockinOnHeavensDoormp3" />
+                <BoxMusic capa={HolyWars} nome="MEGADETH" musica="Holy Wars The Punishment Due" audio={HolyWarsmp3} />
+                <BoxMusic capa={CrackCocaine} nome="OZZY OSBOURNE" musica="Crack Cocaine" audio={CrackCocainemp3} />
+                <BoxMusic capa={PaperCut} nome="LINKIN PARK" musica="PaperCut" audio={PaperCutmp3} />
+                <BoxMusic capa={Eruption} nome="VAN HALEN" musica="Eruption 2015 Remaster" audio={Eruptionmp3} />
+                <BoxMusic capa={KnockinOnHeavensDoor} nome="GUNS N' ROSES " musica=" knockin on heaven's door" audio={KnockinOnHeavensDoormp3} />
 
             </section>
 

@@ -1,4 +1,4 @@
-import Anuncio from "../assets/Anuncio.jpeg"
+import Anuncio from "../assets/anuncio/Anuncio.jpeg"
 
 function Announcement() {
     return (
