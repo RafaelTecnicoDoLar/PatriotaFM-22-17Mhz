@@ -27,6 +27,8 @@ import WastedYearsmp3 from "../assets/audio/WastedYears.mp3"
 import Polly from "../assets/albuns/Polly.jpg"
 import Pollymp3 from "../assets/audio/Polly.mp3"
 
+import BeforeIForget from "../assets/albuns/BeforeIForget.jpg"
+import BeforeIForgetmp3 from "../assets/audio/BeforeIForget.mp3"
 
 function MaisPedidas() {
     return (
@@ -46,7 +48,7 @@ function MaisPedidas() {
                 <BoxMusic capa={WastedYears} nome="IRON MAIDEN" musica="Wasted Years - 2015 Remaster" audio={WastedYearsmp3} />
                 <BoxMusic capa={TheLegacy} nome="TESTAMENT" musica="The Legacy" audio={TheLegacymp3} />
                 <BoxMusic capa={Polly} nome="NIRVANA " musica="Polly" audio={Pollymp3} />
-
+                <BoxMusic capa={BeforeIForget} nome="SLIPKNOT" musica="Before I Forget" audio={BeforeIForgetmp3} />
             </section>
 
         </div>
