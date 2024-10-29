@@ -7,6 +7,7 @@ import HeroSection from './components/HeroSection'
 import Announcement from './components/Announcement'
 import MaisPedidas from './components/MaisPedidas'
 import Promocao from './components/Promocao'
+import Footer from './components/Footer'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -15,5 +16,6 @@ createRoot(document.getElementById('root')).render(
     <Announcement />
     <MaisPedidas />
     <Promocao/>
+    <Footer/>
   </StrictMode>
 )

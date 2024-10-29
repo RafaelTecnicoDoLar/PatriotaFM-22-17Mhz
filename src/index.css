@@ -17,6 +17,7 @@ header {
 .Logo {
     height: 80%;
     border-radius: 50%;
+    border: 0.2rem solid #FDC700;
 }
 
 .itens-menu {
@@ -115,18 +116,18 @@ header {
 }
 
 .containerm-maispedidas {
-    width: 100%; 
+    width: 100%;
     overflow: hidden;
-    position: relative; 
+    position: relative;
 }
 
 .maispedidas {
     display: flex;
     margin-left: 10%;
     margin-right: 10%;
-    overflow-x: auto; 
-    white-space: nowrap; 
-    padding-bottom: 10px; 
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-bottom: 10px;
     padding: 1rem;
     background-color: rgba(128, 128, 128, 0.233);
     border-radius: 1rem;
@@ -134,23 +135,23 @@ header {
 
 
 .maispedidas::-webkit-scrollbar {
-    height: 0.5rem; 
+    height: 0.5rem;
 }
 
 .maispedidas::-webkit-scrollbar-thumb {
-    background: #888; 
-    border-radius: 0.5rem; 
+    background: #888;
+    border-radius: 0.5rem;
 }
 
 .maispedidas::-webkit-scrollbar-thumb:hover {
-    background: #555; 
+    background: #555;
 }
 
 .card {
     border-radius: 1rem;
     align-items: center;
     margin: 0.5rem;
-    
+
 }
 
 .imgboxmusic {
@@ -168,11 +169,11 @@ header {
     margin-left: 2rem;
 }
 
-.selecaopromocao{
+.selecaopromocao {
     background-color: rgba(128, 128, 128, 0.233);
     display: inline-flex;
     border-radius: 1rem;
-    margin-left: 10%;  
+    margin-left: 10%;
     margin-top: 1rem;
 
 }
@@ -181,7 +182,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
+
     max-width: 31.5rem;
     min-height: 35rem;
     margin: 1rem;
@@ -223,4 +224,42 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: end;
+}
+
+.Footer {
+    background-color: #DE1B1B;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.LogoFooter {
+    height: 10%;
+    width: 10%;
+    border-radius: 50%;
+    border: 0.2rem solid #FDC700;
+}
+
+.RealizacaoProjeto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: gray;
+
+}
+
+.Projeto {
+    display: inline-flex;
+    align-items: center;
+}
+
+.Vite {
+    height: 10%;
+    width: 10%;
+
+}
+
+.React {
+    height: 10%;
+    width: 10%;
 }
