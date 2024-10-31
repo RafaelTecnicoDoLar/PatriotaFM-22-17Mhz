@@ -29,8 +29,6 @@ function Footer() {
 
                 <div className="Projeto">
 
-
-
                     <img className="Vite" src={vite} />
 
                     <h1>
@@ -42,6 +40,13 @@ function Footer() {
                 </div>
             </div>
 
+            <div class="Realizacao">
+                <h1>
+                    Projeto feito para aprender a utilizar o vite e o react, visando aprender a manipular componentes, reutilizar codigo, estilizar cards e estrutura basica do html, css, vite, react.
+
+                </h1>
+
+            </div>
         </footer>
 
     );
